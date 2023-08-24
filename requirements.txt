@@ -1,0 +1,10 @@
+Cython
+librosa
+matplotlib.1
+numpy
+phonemizer.1
+scipy
+tensorboar3.0
+torch
+torchvision
+Unidecode
