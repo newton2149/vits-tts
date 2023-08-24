@@ -8,7 +8,7 @@ __pycache__
 .vscode
 model/*.pth
 model/*.pth
-
+venv
 build
 *.c
 monotonic_align/monotonic_align
