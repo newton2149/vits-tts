@@ -1,10 +1,10 @@
 Cython
 librosa
-matplotlib.1
+matplotlib
 numpy
-phonemizer.1
+phonemizer
 scipy
-tensorboar3.0
+tensorboard
 torch
 torchvision
 Unidecode
