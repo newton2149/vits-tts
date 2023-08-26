@@ -60,13 +60,13 @@ docker pull newton2149/vits:v01
 ### For VCTK Model
 
 ```sh
- docker run -v $(pwd):/usr/src/vits_app newton2149/vits:v01 python3 vctk_inference.py --text "text completed" --device "cpu" --speaker_id 10 --noise_scale 0.669 --noise_scale_w 0.9 --length_scale 2 
+ docker run -v $(pwd):/usr/src/vits_app newton2149/vits:latest python3 vctk_inference.py --text "text completed" --device "cpu" --speaker_id 10 --noise_scale 0.669 --noise_scale_w 0.9 --length_scale 2 
 
 ```
 
 ### For LJ Model
 
 ```sh
- docker run -v $(pwd):/usr/src/vits_app newton2149/vits:v01 python3 LJ_Inference.py --text "text completed" --device "cpu" --noise_scale 0.669 --noise_scale_w 0.9 --length_scale 2 
+ docker run -v $(pwd):/usr/src/vits_app newton2149/vits:latest python3 LJ_Inference.py --text "text completed" --device "cpu" --noise_scale 0.669 --noise_scale_w 0.9 --length_scale 2 
 
 ```
