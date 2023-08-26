@@ -16,7 +16,7 @@ def get_text(text, hps):
     text_norm = torch.LongTensor(text_norm)
     return text_norm
 
-def main_cpu(args):
+def main_gpu(args):
     hps = utils.get_hparams_from_file("./configs/vctk_base.json")
 
     net_g = SynthesizerTrn(
@@ -39,7 +39,7 @@ def main_cpu(args):
         write(f"{args.output_directory}generated{random.randint(1,1000000)}.mp3",rate=hps.data.sampling_rate,data=audio)
 
 
-def main_gpu(args):
+def main_cpu(args):
     hps = utils.get_hparams_from_file("./configs/vctk_base.json")
 
     net_g = SynthesizerTrn(
