@@ -2,6 +2,18 @@
 
 ## For Setup
 
+#### Parameters
+
+    "--device", type=str, default="cuda", help="Speaker Id"
+    "--txt_file", type=str, default="", help="Input text File"
+    "--speaker_id", type=int, default=4, help="Speaker Id"
+    "--noise_scale", type=float, default=.667, help="Noise Scale"
+    "--noise_scale_w", type=float, default=0.8, help="Noise Scale Weights"
+    "--length_scale", type=int, default=1, help="Length Scale"
+    "--text", type=str, default='Please Add Some Texts', help="Input Text"
+    "--output_directory", type=str, default='./output', help="Input Text"
+
+
 #### Step 1 (Clone the git repo)
 
 ```sh
